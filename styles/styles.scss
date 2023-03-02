@@ -1,0 +1,18 @@
+
+
+//Reset
+@import "../base/reset";
+
+//Mixins
+@import "../assets/mixins";
+
+//Estilos de bloques
+@import "../block/_header";
+
+
+
+//Estilos universales
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
