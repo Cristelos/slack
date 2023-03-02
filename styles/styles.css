@@ -142,6 +142,7 @@ table {
     width: 590px;
     -o-object-fit: inherit;
        object-fit: inherit;
+    margin: 0;
   }
 }
 body {
