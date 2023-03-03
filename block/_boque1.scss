@@ -1,5 +1,45 @@
 @media screen and (min-width: 0) and (max-width: 863px){
     .bloque-iconos{
+        height: auto;
         background-color: #f4ede4;
+        text-align: center;
+        padding: 30px;
+    }
+    .bloque-iconos p{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.2857;
+        letter-spacing: .8px;
+    }
+    .bloque-iconos__img{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 0;
+    }
+    .bloque-iconos__img img:nth-child(1){
+        width: 106px;
+        height: 100%;
+    }
+    .bloque-iconos__img img:nth-child(2){
+        width: 70px;
+        height: 100%;
+    }
+    .bloque-iconos__img img:nth-child(3){
+        width: 80px;
+        height: 100%;
+    }
+    .bloque-iconos__img img:nth-child(4){
+        width: 75px;
+        height: 100%;
+    }
+    .bloque-iconos__img img:nth-child(5){
+        width: 210px;
+        height: 100%;
+    }
+    .bloque-iconos__img img:nth-child(6){
+        width: 80px;
+        height: 100%;
     }
 }
