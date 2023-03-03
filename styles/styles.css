@@ -146,6 +146,11 @@ table {
     margin: 0;
   }
 }
+@media screen and (min-width: 0) and (max-width: 863px) {
+  .bloque-iconos {
+    background-color: #f4ede4;
+  }
+}
 body {
   font-family: "Poppins", sans-serif;
 }/*# sourceMappingURL=styles.css.map */
