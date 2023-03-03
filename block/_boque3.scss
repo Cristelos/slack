@@ -20,8 +20,8 @@
         padding: 15px;
         cursor: pointer;
         border-radius: 4px;
-        padding-bottom: 1px;
-        margin-bottom: 10px;
+        padding-bottom: 1px;    
+        margin-bottom: 20px;
     }
     .caja-texto-botones__boton1 p{
         font-size: 14px;
@@ -40,5 +40,18 @@
     }
     .caja-texto-botones__boton2 p{
         font-size: 14px;
+    }
+    .porcentajes-texto {
+        padding: 20px 94px;
+        text-align: center;
+    }
+    .porcentaje {
+        font-weight: 600;
+        font-size: 3rem;
+        color: #611f69;
+        margin-bottom: 4px;
+    }
+    .porcentajes-texto__pequeno{
+        font-size: 0.8rem;
     }
 }
