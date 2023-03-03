@@ -54,4 +54,34 @@
     .porcentajes-texto__pequeno{
         font-size: 0.8rem;
     }
+    .cita__txt {
+        padding: 10px 22px;
+    }
+    .cita__cursiva{
+        font-style: italic;
+        font-weight: 300;
+        font-size: 1.10rem;
+    }
+    p.cita__persona {
+        font-size: 0.9rem;
+        font-weight: bold;
+        margin-bottom:0;
+    }
+    .cita__txt  a{
+        font-size: 1rem;
+        text-decoration: none;
+        color: #1264a3;
+        cursor: pointer;
+    }
+    .cita__txt  a::after{
+        content: " →";
+    }
+    .texto-legal{
+        padding: 40px 15px 20px 15px;
+    }
+    .texto-legal p{
+        font-size: 0.75rem;
+        color: #696969;
+        text-align: center;
+    }
 }

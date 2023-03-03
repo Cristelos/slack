@@ -1,11 +1,12 @@
 @media screen and (min-width: 0) and (max-width: 863px){
-    .video-curva{
+    .video-curva {
         margin-top: 55px;
+        margin-bottom: 55px;
     }
     .video-curva > iframe {
         border-top-right-radius: 500px;
         border-bottom-right-radius: 500px;
-        width: 350px;
+        width: 370px;
         height: 200px;
     }
 
