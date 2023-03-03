@@ -351,6 +351,44 @@ table {
   .cajita__ficha img {
     width: 100%;
   }
+  .texto-pequeno {
+    font-size: 0.9rem;
+    margin-top: 20px;
+    color: #454245;
+  }
+  .cajita__ficha p:nth-child(3) {
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+  .cajita__ficha a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #1264a3;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .cajita__ficha a::after {
+    content: " →";
+    position: absolute;
+    left: 300px;
+  }
+  .cajita__circulitos {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  .circulo1 {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #611f69;
+  }
+  .circulo2 {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: rgba(105, 105, 105, 0.4745098039);
+  }
 }
 @media screen and (min-width: 0) and (max-width: 863px) {
   .video-curva {
