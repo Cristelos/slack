@@ -328,6 +328,29 @@ table {
     color: #696969;
     text-align: center;
   }
+  .cajita {
+    display: flex;
+    background-color: #F4EDE4;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 54px 14px 0 14px;
+  }
+  .cajita h3 {
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+  .cajita__ficha {
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 20px 42px 40px 35px;
+    box-shadow: 2px 4px 19px rgba(0, 0, 0, 0.168627451);
+    text-align: left;
+  }
+  .cajita__ficha img {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 0) and (max-width: 863px) {
   .video-curva {
