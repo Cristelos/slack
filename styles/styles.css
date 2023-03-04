@@ -226,10 +226,46 @@ header {
     font-size: 0.8rem;
   }
   .links-interes__lista li::after {
-    content: " →";
+    content: " >";
     left: 360px;
     position: absolute;
     font-size: 1.2rem;
+  }
+  .links-rrss {
+    padding: 20px 15px;
+  }
+  .links-rrss__linea {
+    width: 100%;
+    border-top: 1.5px solid #d2cfcf;
+    margin-bottom: 25px;
+  }
+  .links-rrss__lista {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+  .links-rrss__lista img {
+    width: 20px;
+  }
+  div.links-rrss > ul > li:nth-child(6) {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  div.links-rrss > ul > li:nth-child(6)::after {
+    content: "ˇ";
+    font-size: 21px;
+    position: absolute;
+    left: 170px;
+    margin-top: 13px;
+  }
+  div.links-rrss > ul > li:nth-child(7) {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #1264a3;
   }
 }
 @media screen and (min-width: 0) and (max-width: 863px) {
