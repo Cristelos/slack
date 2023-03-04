@@ -1,0 +1,52 @@
+.bloque-elipse {
+    background: #611f69;
+    border: none;
+    clip-path: ellipse(75% 100% at center top);
+    height: auto;
+    min-height: 350px;
+}
+
+@media screen and (min-width: 0) and (max-width: 863px) {
+    .bloque-elipse{
+        background-color: #611f69;
+        padding: 20px 14px;
+        text-align: center;
+        clip-path: ellipse(105% 100% at center top);
+        padding-bottom: 1rem !important;
+    }
+    .bloque-elipse h3{
+        color: #ffffff;
+        font-weight: 500;
+        line-height: 1.158;
+        letter-spacing: -0.8px;
+        font-size: 1.6rem;
+        margin-top: 35px;
+    }
+    .botones-footer{
+        display: flex;
+        margin-top: 35px;
+        flex-direction: column;
+    }
+    .boton-footer1{
+        color: #611f69;
+        background-color:#ffffff ;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 15px;
+        cursor: pointer;
+        border-radius: 4px;
+        padding-bottom: 1px;
+        margin-bottom: 20px;
+    }
+    .boton-footer2{
+        color: #ffffff;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 15px;
+        cursor: pointer;
+        border-radius: 4px;
+        padding-bottom: 1px;
+        margin-bottom: 20px;
+        border: 1px solid #ffffff;
+    }
+}
