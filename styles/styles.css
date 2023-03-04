@@ -207,6 +207,30 @@ header {
     margin-bottom: 20px;
     border: 1px solid #ffffff;
   }
+  .links-interes {
+    margin-top: 35px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .links-interes img {
+    width: 58px;
+  }
+  .links-interes__lista ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+  .links-interes__lista li::after {
+    content: " →";
+    left: 360px;
+    position: absolute;
+    font-size: 1.2rem;
+  }
 }
 @media screen and (min-width: 0) and (max-width: 863px) {
   .bloque-iconos {
