@@ -267,6 +267,27 @@ header {
     gap: 5px;
     color: #1264a3;
   }
+  .links-rrss__icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+  }
+  .links-rrss__icons > img:nth-child(3) {
+    width: 30px;
+  }
+  .links-rrss__icons > img:nth-child(4) {
+    width: 30px;
+  }
+  .legales {
+    padding: 0 12px 20px;
+  }
+  .legales p {
+    font-size: 0.65rem;
+    color: #454245;
+    line-height: 1.25rem;
+  }
 }
 @media screen and (min-width: 0) and (max-width: 863px) {
   .bloque-iconos {
