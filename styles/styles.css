@@ -242,7 +242,7 @@ header {
   .links-rrss__lista {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 30px;
     font-weight: 500;
     font-size: 0.8rem;
   }
@@ -469,6 +469,10 @@ header {
   .cajita__ficha img {
     width: 100%;
   }
+  .cajita__ficha > p:nth-child(4) {
+    margin-top: 37px;
+    margin-bottom: 0;
+  }
   .texto-pequeno {
     font-size: 0.9rem;
     margin-top: 20px;
@@ -488,7 +492,9 @@ header {
   .cajita__ficha a::after {
     content: " →";
     position: absolute;
-    left: 300px;
+    left: 278px;
+    font-size: 1.7rem;
+    margin-top: -6px;
   }
   .cajita__circulitos {
     display: flex;
